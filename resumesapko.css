@@ -1,0 +1,27 @@
+html, body {
+	margin: 20px 40px;
+}
+
+ul {
+    list-style: none;
+}
+  
+ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+  
+a {
+    text-decoration: none;
+    color: #000;
+}
+  
+.main-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.objective {
+    margin-bottom: 20px;
+}
